@@ -1,1 +1,28 @@
-/*# sourceMappingURL=globalStyles.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Epilogue", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+body main {
+  max-width: 1021px;
+}
+body main .desc {
+  display: flex;
+  flex-flow: column nowrap;
+}
+body main p {
+  color: #7158ef;
+  font-feature-settings: "clig" off, "liga" off;
+  line-height: 32px;
+}
+body main p:first-child {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}/*# sourceMappingURL=globalStyles.css.map */
