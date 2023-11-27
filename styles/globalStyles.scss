@@ -23,6 +23,8 @@ body {
     padding: 6rem 2.3rem 6.6rem;
 
     main {
+        display: flex;
+        flex-flow: column nowrap;
         width: 32.9rem;
         margin: 0 auto;
 
@@ -85,4 +87,8 @@ body {
             }
         }
     }
+}
+
+@media (min-width: 40em) {
+
 }
