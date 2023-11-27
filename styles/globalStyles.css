@@ -19,16 +19,16 @@ body {
   color: #090039;
   padding: 6rem 2.3rem 6.6rem;
 }
-@media (min-width: 1080px) {
+@media (min-width: 768px) {
   body {
-    padding-top: 8rem;
+    padding: 8rem;
   }
 }
 body main {
   max-width: 32.9rem;
   margin: 0 auto;
 }
-@media (min-width: 1080px) {
+@media (min-width: 768px) {
   body main {
     max-width: 102rem;
     display: flex;
@@ -40,7 +40,7 @@ body main .desc {
   flex-flow: column nowrap;
   margin-right: 11.6rem;
 }
-@media (min-width: 1080px) {
+@media (min-width: 768px) {
   body main .desc {
     max-width: 48.4rem;
   }
@@ -79,6 +79,7 @@ body main ul li {
   font-weight: 700;
   line-height: 32px;
   max-width: 25.7rem;
+  margin-top: 3.2rem;
 }
 body main ul li span {
   font-size: 7.2rem;
@@ -87,7 +88,7 @@ body main ul li span {
   letter-spacing: -0.2rem;
   margin-right: 2.6rem;
 }
-@media (min-width: 1080px) {
+@media (min-width: 768px) {
   body main ul li {
     gap: 5.3rem;
     max-width: 45rem;
@@ -95,9 +96,4 @@ body main ul li span {
 }
 body main ul li:first-child span {
   margin-right: 3.6rem;
-}
-@media (min-width: 1080px) {
-  body main ul li + li {
-    margin-top: 3.2rem;
-  }
 }/*# sourceMappingURL=globalStyles.css.map */
