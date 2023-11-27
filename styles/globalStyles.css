@@ -9,19 +9,25 @@
 body {
   min-height: 100vh;
   min-width: 100vw;
-  background: #ECE9FD;
+  background: #ece9fd;
   padding: 60px 23px 66px;
 }
 body main .desc {
   display: flex;
   flex-flow: column nowrap;
-}
-body main p {
-  color: #7158ef;
   font-feature-settings: "clig" off, "liga" off;
+}
+body main .desc h1 {
+  color: #090039;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+}
+body main .desc p {
+  color: #7158ef;
   line-height: 32px;
 }
-body main p:first-child {
+body main .desc p:first-child {
   text-transform: uppercase;
   letter-spacing: 3px;
 }/*# sourceMappingURL=globalStyles.css.map */

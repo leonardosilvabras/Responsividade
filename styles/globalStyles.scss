@@ -10,26 +10,32 @@
 body {
     min-height: 100vh;
     min-width: 100vw;
-    background: #ECE9FD;
+    background: #ece9fd;
     padding: 60px 23px 66px;
 
     main {
         .desc {
             display: flex;
             flex-flow: column nowrap;
-        }
-
-        p {
-            color: #7158ef;
             font-feature-settings:
                 "clig" off,
                 "liga" off;
-            line-height: 32px;
-        }
+            h1 {
+                color: #090039;
+                font-size: 40px;
+                font-weight: 800;
+                line-height: 48px;
+            }
 
-        p:first-child {
-            text-transform: uppercase;
-            letter-spacing: 3px;
+            p {
+                color: #7158ef;
+                line-height: 32px;
+            }
+
+            p:first-child {
+                text-transform: uppercase;
+                letter-spacing: 3px;
+            }
         }
     }
 }
