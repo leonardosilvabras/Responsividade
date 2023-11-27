@@ -19,27 +19,43 @@ body {
   color: #090039;
   padding: 6rem 2.3rem 6.6rem;
 }
+@media (min-width: 1080px) {
+  body {
+    padding-top: 8rem;
+  }
+}
 body main {
-  display: flex;
-  flex-flow: column nowrap;
-  width: 32.9rem;
+  max-width: 32.9rem;
   margin: 0 auto;
+}
+@media (min-width: 1080px) {
+  body main {
+    max-width: 102rem;
+    display: flex;
+    gap: 10rem;
+  }
 }
 body main .desc {
   display: flex;
   flex-flow: column nowrap;
+  margin-right: 11.6rem;
+}
+@media (min-width: 1080px) {
+  body main .desc {
+    max-width: 48.4rem;
+  }
 }
 body main .desc h1 {
   font-size: 4rem;
   font-weight: 800;
   line-height: 4.8rem;
   margin-bottom: 1.5rem;
-  width: 32.9rem;
+  min-width: 32.9rem;
 }
 body main .desc p {
   line-height: 3.2rem;
   margin-bottom: 3.2rem;
-  width: 32.9rem;
+  min-width: 32.9rem;
   color: rgba(10, 0, 57, 0.64);
 }
 body main .desc p:first-child {
@@ -51,10 +67,10 @@ body main .desc p:first-child {
 body main .desc a {
   text-decoration: none;
   line-height: 32px;
-  margin-bottom: 7.2rem;
 }
 body main ul {
   list-style: none;
+  margin-top: 7.2rem;
 }
 body main ul li {
   display: flex;
@@ -62,7 +78,7 @@ body main ul li {
   font-size: 24px;
   font-weight: 700;
   line-height: 32px;
-  width: 25.7rem;
+  max-width: 25.7rem;
 }
 body main ul li span {
   font-size: 7.2rem;
@@ -71,6 +87,17 @@ body main ul li span {
   letter-spacing: -0.2rem;
   margin-right: 2.6rem;
 }
+@media (min-width: 1080px) {
+  body main ul li {
+    gap: 5.3rem;
+    max-width: 45rem;
+  }
+}
 body main ul li:first-child span {
   margin-right: 3.6rem;
+}
+@media (min-width: 1080px) {
+  body main ul li + li {
+    margin-top: 3.2rem;
+  }
 }/*# sourceMappingURL=globalStyles.css.map */
