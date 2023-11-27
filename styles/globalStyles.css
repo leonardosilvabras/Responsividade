@@ -6,28 +6,69 @@
   font-family: "Epilogue", sans-serif;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
+  font-size: 1.6rem;
   min-height: 100vh;
   min-width: 100vw;
   background: #ece9fd;
-  padding: 60px 23px 66px;
+  font-feature-settings: "clig" off, "liga" off;
+  color: #090039;
+  padding: 6rem 2.3rem 6.6rem;
+}
+body main {
+  width: 32.9rem;
+  margin: 0 auto;
 }
 body main .desc {
   display: flex;
   flex-flow: column nowrap;
-  font-feature-settings: "clig" off, "liga" off;
 }
 body main .desc h1 {
-  color: #090039;
-  font-size: 40px;
+  font-size: 4rem;
   font-weight: 800;
-  line-height: 48px;
+  line-height: 4.8rem;
+  margin-bottom: 1.5rem;
+  width: 32.9rem;
 }
 body main .desc p {
-  color: #7158ef;
-  line-height: 32px;
+  line-height: 3.2rem;
+  margin-bottom: 3.2rem;
+  width: 32.9rem;
+  color: rgba(10, 0, 57, 0.64);
 }
 body main .desc p:first-child {
+  color: #7158ef;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1.7rem;
+}
+body main .desc a {
+  text-decoration: none;
+  line-height: 32px;
+  margin-bottom: 7.2rem;
+}
+body main ul {
+  list-style: none;
+}
+body main ul li {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  width: 25.7rem;
+}
+body main ul li span {
+  font-size: 7.2rem;
+  font-weight: 800;
+  line-height: 8rem;
+  letter-spacing: -0.2rem;
+  margin-right: 2.6rem;
+}
+body main ul li:first-child span {
+  margin-right: 3.6rem;
 }/*# sourceMappingURL=globalStyles.css.map */
