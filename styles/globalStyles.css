@@ -9,9 +9,8 @@
 body {
   min-height: 100vh;
   min-width: 100vw;
-}
-body main {
-  max-width: 1021px;
+  background: #ECE9FD;
+  padding: 60px 23px 66px;
 }
 body main .desc {
   display: flex;
